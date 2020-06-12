@@ -20,6 +20,8 @@ Since the site is build on Github Actions, you're not limited to plugins which G
 After you've [setup the DNS of your domain](https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site),
 add a `cname` to `.github/workflows/gh-pages.yml` inside the deploy action.
 
+In `_config.yml`, adjust `url` and `basepath` accordingly.
+
 ## Using another theme
 
 ### Find a theme
