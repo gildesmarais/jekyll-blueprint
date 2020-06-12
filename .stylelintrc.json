@@ -48,5 +48,8 @@
       }
     ]
   },
-  "ignoreFiles": ["assets/css/sass/syntax-highlighting.scss"]
+  "ignoreFiles": [
+    "assets/css/sass/syntax-highlighting.scss",
+    "assets/css/main.scss"
+  ]
 }
