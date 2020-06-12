@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
+git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'jekyll', '~> 4.1.0'
 # This is the default theme for new Jekyll sites. You may change this to anything you like.

@@ -13,4 +13,34 @@ Since the site is build on Github Actions, you're not limited to plugins which G
 - [setup GITHUB_TOKEN](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-first-deployment-with-github_token)
 - deploy again
 
-See `.github/workflows/gh-pages.yml`. You might want to add a cname.
+## Using your own domain
+
+After you've [setup the DNS of your domain](https://help.github.com/en/github/working-with-github-pages/configuring-a-custom-domain-for-your-github-pages-site),
+add a `cname` to `.github/workflows/gh-pages.yml` inside the deploy action.
+
+## Using another theme
+
+### Find a theme
+
+- https://jamstackthemes.dev/ssg/jekyll/
+- https://jekyllthemes.io/
+- https://jekyll-themes.com/
+- ... somewhere on the internet
+
+### Add a theme to your `Gemfile`
+
+If it's published as a gem:
+
+```ruby
+gem 'the_theme_to_use'
+```
+
+If it's in a github repository:
+
+```ruby
+gem 'the_theme_to_use', github: 'username/the_theme_to_use'
+```
+
+### Tell Jekyll to use the theme
+
+Inside `_config.yml`, change `theme:` value to `the_theme_to_use`.
