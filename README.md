@@ -9,9 +9,11 @@ Since the site is build on Github Actions, you're not limited to plugins which G
 - Fork this repo
 - `make` sets up the dependencies and starts Jekyll's server
 - change/build theme, add content, customize, etc.
+- inside `_config.yml`, change `baseurl` to your repository-name
 - commit changes + push
 - [setup GITHUB_TOKEN](https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-first-deployment-with-github_token)
 - deploy again
+- Surf to `https://yourusername.github.io/repository-name/`
 
 ## Using your own domain
 
