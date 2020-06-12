@@ -1,0 +1,14 @@
+{
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "lintfix": "stylelint --fix assets/**/*.scss"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.0",
+    "stylelint-config-recess-order": "^2.0.4",
+    "stylelint-config-recommended-scss": "^4.2",
+    "stylelint-scss": "^3.17.2"
+  }
+}
