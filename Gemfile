@@ -25,5 +25,5 @@ end
 gem 'wdm', '~> 0.1.1', platforms: %i[mingw x64_mingw mswin]
 
 group :development do
-  gem 'rubocop', '~> 0.85'
+  gem 'rubocop', '~> 0.86'
 end
