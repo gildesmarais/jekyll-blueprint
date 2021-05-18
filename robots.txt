@@ -1,0 +1,1 @@
+Sitemap: https://gildesmarais.github.io/jekyll-blueprint/sitemap.xml

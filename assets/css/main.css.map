@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"assets/css/sass/base.scss"
+	],
+	"sourcesContent": [
+		"// You need to include this stylesheet in your pages <head> manually with:\n//\n// <link rel=\"stylesheet\" href=\"/jekyll-blueprint/assets/css/main.css\" />\n//\n// @import files directly from the sass/ directory:;\n\n@import \"base\";\n\n// Don't write any SCSS in this file as stylelint does not fix it,\n// just use the sass directory.\n",
+		"// start writing scss here. remember to import any new file from main.scss\n"
+	],
+	"names": [],
+	"mappings": ""
+}
